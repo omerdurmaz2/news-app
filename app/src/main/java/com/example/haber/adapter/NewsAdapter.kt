@@ -73,8 +73,7 @@ class NewsAdapter(val liste: TopHeadlinesModel, val context: Context) : BaseAdap
                     if (sonuc)
                         btnKitaplik.setText("Okuma Listemden Çıkar")
                     else
-                        Toast.makeText(p1?.context, "Hata!", Toast.LENGTH_SHORT).show()
-
+                        Toast.makeText(context, "Hata!", Toast.LENGTH_SHORT).show()
                 }
 
             }
